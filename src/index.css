@@ -16,3 +16,28 @@ body {
   min-height: 100vh;
   width: 100%;
 }
+
+/* Ensure buttons have high contrast and mobile touch accessibility */
+.tp-btn.next-btn {
+  background: #16a34a !important;
+  color: #ffffff !important;
+  border: 1.5px solid #15803d !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 14px rgba(22, 163, 74, 0.4) !important;
+}
+
+.tp-btn.submit-btn {
+  background: #1d4ed8 !important;
+  color: #ffffff !important;
+  border: 1.5px solid #1e40af !important;
+  font-weight: 700 !important;
+  box-shadow: 0 3px 8px rgba(29, 78, 216, 0.3) !important;
+}
+
+.tp-btn.submit-btn:disabled {
+  background: #e2e8f0 !important;
+  color: #64748b !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: none !important;
+  opacity: 1 !important;
+}
